@@ -3,6 +3,7 @@ I spent over 40 hours figuring out how to configure the DellR720 server to work 
 Download Ubuntu 23.04.5
 https://docs.amd.com/en/docs-5.3.0/deploy/linux/quick_start.html
 
+```bash
 # Make the directory if it doesn't exist yet.
 # This location is recommended by the distribution maintainers.
 sudo mkdir --parents --mode=0755 /etc/apt/keyrings
@@ -28,4 +29,4 @@ sudo apt install rocm-hip-libraries
 sudo apt install rocm-hip-sdk
 sudo apt install rocm-hip-sdk5.3.0 rocm-hip-sdk5.2.1
 export PATH=$PATH:/opt/rocm-5.3.2/bin:/opt/rocm-5.2.1/opencl/bin
-
+```
